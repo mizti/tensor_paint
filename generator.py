@@ -5,9 +5,6 @@ class Generator():
     pass
 
   def __call__(self, input_tensor, teacher_tensor):
-    # Tensor definition
-    #x = tf.placeholder(tf.float32, shape=[None, 784])
-    #y_ = tf.placeholder(tf.float32, shape=[None, 10])
     x = input_tensor
     y_ = teacher_tensor
     
